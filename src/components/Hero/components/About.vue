@@ -8,7 +8,7 @@
       challenging projects for the past few years as a consultant and
       freelancer.
     </p>
-    <p>My favourite tecknologies are React js and Node js.</p>
+    <p>My favourite tecknologies are React js, Vue js and Node js.</p>
     <p>
       Finally my dream is to build a platform that supports children education
       in Africa, and I am open to all the opportunities that can extend my

@@ -6,8 +6,8 @@
 </template>
 
 <script>
-import About from "@/components/About.vue";
-import Me from "@/components/Me.vue";
+import About from "@/components/Hero/components/About.vue";
+import Me from "@/components/Hero/components/Me.vue";
 
 export default {
   name: "Hero",

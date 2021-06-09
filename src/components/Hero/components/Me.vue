@@ -1,6 +1,6 @@
 <template>
   <div class="hero_me">
-    <img class="hero_me_image" src="../assets/me.jpg" />
+    <img class="hero_me_image" src="@/assets/me.jpg" />
     <div class="hero_me_email"><p>ameenessid@gmail.com</p></div>
   </div>
 </template>

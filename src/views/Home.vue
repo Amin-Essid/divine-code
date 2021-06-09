@@ -1,17 +1,51 @@
 <template>
   <div class="home">
     <Hero />
+    <div class="title">
+      <h1>
+        MY WORK
+      </h1>
+    </div>
+    <!-- <div
+      v-for="project in projects"
+      :key="project.id"
+      class="projects"
+      :id="project.info.name"
+    > -->
+    <Project :project="projects[0]" />
+    <InversedProject :project="projects[1]" />
+    <Project :project="projects[2]" />
+    <InversedProject :project="projects[3]" />
+    <Project :project="projects[4]" />
+    <!-- </div> -->
   </div>
 </template>
 
 <script>
-import Hero from "@/components/Hero.vue";
+import Hero from "@/components/Hero/Hero.vue";
+import Project from "@/components/Project/Project.vue";
+import InversedProject from "@/components/Project/InversedProject.vue";
+import projects from "@/data/data.js";
 export default {
   name: "Home",
   props: [],
-  components: { Hero },
-  setup() {},
+  components: { Hero, Project, InversedProject },
+  setup() {
+    return { projects };
+  },
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.title {
+  margin-bottom: 30px;
+  color: #1b0000;
+  margin-top: 30px;
+}
+
+.title h1 {
+  display: inline-block;
+  padding-bottom: 10px;
+  border-bottom: #1b0000 2px solid;
+}
+</style>
