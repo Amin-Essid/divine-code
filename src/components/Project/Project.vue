@@ -1,7 +1,7 @@
 <template>
   <div class="project">
-    <Preview :preview="project.preview" />
-    <Info :info="project.info" />
+    <Preview :preview="project.preview" previewClass="preview" />
+    <Info :info="project.info" infoClass="info" />
   </div>
 </template>
 
@@ -23,8 +23,8 @@ export default {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  margin-top: 50px;
-  margin-bottom: 200px;
+  padding-top: 175px;
+  padding-bottom: 175px;
   /* border-bottom: #1b0000 2px solid; */
 }
 /* @media only screen and (max-width: 500px) {

@@ -1,12 +1,7 @@
 const projects = [
   {
     id: 1,
-    preview: [
-      "../../../assets/wc/wc1.png",
-      "@/assets/wc/wc2.png",
-      "@/assets/wc/wc3.png",
-      "@/assets/wc/wc4.png",
-    ],
+    preview: ["wcone.png", "wctwo.png", "wcthree.png", "wcfour.png"],
     info: {
       name: "wildcampers",
       discreption:
@@ -24,11 +19,7 @@ const projects = [
   },
   {
     id: 2,
-    preview: [
-      "@/assets/si/si1.png",
-      "@/assets/si/si2.png",
-      "@/assets/si/si3.png",
-    ],
+    preview: ["sione.png", "sitwo.png", "sithree.png"],
     info: {
       name: "suggestion-improvement",
       discreption:
@@ -46,7 +37,7 @@ const projects = [
   },
   {
     id: 3,
-    preview: ["@/assets/vendly/vn1.png"],
+    preview: ["vnone.png"],
     info: {
       name: "vendly",
       discreption:
@@ -65,12 +56,12 @@ const projects = [
   {
     id: 4,
     preview: [
-      "@/assets/btounsi/bt1.png",
-      "@/assets/btounsi/bt2.png",
-      "@/assets/btounsi/bt3.png",
-      "@/assets/btounsi/bt4.png",
-      "@/assets/btounsi/bt5.png",
-      "@/assets/btounsi/bt6.png",
+      "btone.png",
+      "bttwo.png",
+      "btthree.png",
+      "btfour.png",
+      "btfive.png",
+      "btsix.png",
     ],
     info: {
       name: "btounsi",
@@ -89,7 +80,7 @@ const projects = [
   },
   {
     id: 5,
-    preview: ["@/assets/si/eo1.png", "@/assets/si/eo2.png"],
+    preview: ["eoone.png", "eotwo.png"],
     info: {
       name: "ettissalet othmani",
       discreption:

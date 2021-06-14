@@ -12,11 +12,11 @@
       class="projects"
       :id="project.info.name"
     > -->
-    <Project :project="projects[0]" />
-    <InversedProject :project="projects[1]" />
-    <Project :project="projects[2]" />
-    <InversedProject :project="projects[3]" />
-    <Project :project="projects[4]" />
+    <InversedProject :project="projects[0]" />
+    <Project :project="projects[1]" />
+    <InversedProject :project="projects[2]" />
+    <Project :project="projects[3]" />
+    <InversedProject :project="projects[4]" />
     <!-- </div> -->
   </div>
 </template>
