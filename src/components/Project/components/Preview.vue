@@ -20,22 +20,30 @@ export default {
 
 <style scoped>
 .preview {
-  height: 440px;
+  height: auto;
   width: 550px;
-  background: #1b0000;
+  border: #1b0000 solid 2px;
 }
 
 .previewImage {
-  height: 440px;
+  height: auto;
   width: 550px;
 }
 
 .reversedPreview {
-  height: 440px;
+  height: auto;
   width: 550px;
-  background: white;
+  border: white solid 2px;
 }
-/* @media only screen and (max-width: 500px) {
+@media only screen and (max-width: 500px) {
+  .preview,
+  .reversedPreview {
+    width: 95%;
+    margin-bottom: 20px;
+  }
 
-} */
+  .previewImage {
+    width: 80%;
+  }
+}
 </style>

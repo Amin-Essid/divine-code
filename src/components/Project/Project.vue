@@ -25,6 +25,7 @@ export default {
   flex-wrap: wrap;
   padding-top: 175px;
   padding-bottom: 175px;
+
   /* border-bottom: #1b0000 2px solid; */
 }
 /* @media only screen and (max-width: 500px) {

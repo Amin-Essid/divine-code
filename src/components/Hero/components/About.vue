@@ -28,22 +28,22 @@ export default {
 .hero_about {
   max-width: 750px;
   width: 100%;
-  min-height: 435px;
+  min-height: 420px;
   height: auto;
-  color: #f0e68c;
+  color: white;
   background: #1b0000;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  font-size: 24px;
+  font-size: 20px;
   padding: 10px;
 }
 
 .hero_about p {
   text-align: left;
-  margin-top: 20px;
+  margin-top: 15px;
 }
-.hero_about_one {
+/* .hero_about_one {
   padding-left: 15px;
-}
+} */
 </style>

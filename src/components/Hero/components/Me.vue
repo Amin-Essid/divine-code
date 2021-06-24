@@ -1,7 +1,7 @@
 <template>
   <div class="hero_me">
     <img class="hero_me_image" src="@/assets/me.jpg" />
-    <div class="hero_me_email"><p>ameenessid@gmail.com</p></div>
+    <div class="hero_me_email"><p>CONTACT ME</p></div>
   </div>
 </template>
 <script>
@@ -25,6 +25,10 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 5px;
+  box-shadow: 2px 2px gray;
+  cursor: pointer;
+  margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 500px) {

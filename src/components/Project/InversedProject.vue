@@ -22,10 +22,11 @@ export default {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
   padding-top: 175px;
   padding-bottom: 175px;
   background: #1b0000;
+
   /* border-bottom: #1b0000 2px solid; */
 }
 /* @media only screen and (max-width: 500px) {
