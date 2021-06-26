@@ -8,13 +8,16 @@
       </div>
 
       <div class="header_icons">
-        <a href="#">
+        <a href="mailto:ameenessid@gmail.com" target="_blank">
           <img class="header_icon" alt="email" src="../assets/email.png" />
         </a>
-        <a href="#">
+        <a href="https://github.com/Amin-Essid" target="_blank">
           <img class="header_icon" alt="github" src="../assets/github.png" />
         </a>
-        <a href="#">
+        <a
+          href="https://www.linkedin.com/in/mohamed-amin-essid-868335143/"
+          target="_blank"
+        >
           <img
             class="header_icon"
             alt="linkedin"
