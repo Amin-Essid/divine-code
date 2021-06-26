@@ -9,14 +9,10 @@
 
       <div class="header_icons">
         <a href="#">
-          <img class="header_icon" alt="facebook" src="../assets/fb.png" />
+          <img class="header_icon" alt="email" src="../assets/email.png" />
         </a>
         <a href="#">
-          <img
-            class="header_icon"
-            alt="instagram"
-            src="../assets/instagram.png"
-          />
+          <img class="header_icon" alt="github" src="../assets/github.png" />
         </a>
         <a href="#">
           <img

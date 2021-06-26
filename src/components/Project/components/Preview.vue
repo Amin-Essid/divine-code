@@ -20,7 +20,7 @@ export default {
 
 <style scoped>
 .preview {
-  height: auto;
+  height: 310px;
   width: 550px;
   border: #1b0000 solid 2px;
 }
@@ -31,7 +31,7 @@ export default {
 }
 
 .reversedPreview {
-  height: auto;
+  height: 310px;
   width: 550px;
   border: white solid 2px;
 }
