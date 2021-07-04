@@ -21,6 +21,7 @@
 // import InversedProject from "@/components/Project/InversedProject.vue";
 // import projects from "@/data/data.js";
 // import { ref } from "vue";
+import axios from "axios";
 export default {
   //   name: "Contact",
   //   props: [],
@@ -45,8 +46,25 @@ export default {
     };
   },
   methods: {
-    handleSubmit() {
+    async contact() {
+      try {
+        await axios.post(`https://formspree.io/f/xpzykynp`, {
+          body: {
+            email: this.email,
+            message: this.msg,
+          },
+        });
+      } catch (e) {
+        console.log(e);
+      }
+    },
+    async handleSubmit() {
       console.log(this.email, this.msg);
+      await this.contact();
+      this.redirect();
+    },
+    redirect() {
+      this.$router.push({ name: "Home" });
     },
   },
 };
