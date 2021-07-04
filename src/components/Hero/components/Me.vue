@@ -1,7 +1,9 @@
 <template>
   <div class="hero_me">
     <img class="hero_me_image" src="@/assets/me.png" />
-    <div class="hero_me_email"><p>CONTACT ME</p></div>
+    <router-link to="/contact">
+      <div class="hero_me_email"><p>CONTACT ME</p></div>
+    </router-link>
   </div>
 </template>
 <script>
@@ -29,6 +31,10 @@ export default {
   box-shadow: 2px 2px gray;
   cursor: pointer;
   margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 500px) {
