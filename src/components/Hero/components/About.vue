@@ -4,8 +4,8 @@
       Hi, I am Amine Essid.
     </p>
     <p>
-      I am a passionate software developer, and I have been working on multiple
-      challenging projects for the past few years as a consultant and
+      I am a passionate software developer and a teacher, I have been working on
+      multiple challenging projects for the past few years as a consultant and
       freelancer.
     </p>
     <p>My favourite tecknologies are React js, Vue js and Node js.</p>

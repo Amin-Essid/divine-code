@@ -1,14 +1,19 @@
 <template>
   <div class="hero_me">
     <img class="hero_me_image" src="@/assets/me.png" />
-    <router-link to="/contact">
+    <!-- <router-link to="/contact">
       <div class="hero_me_email"><p>CONTACT ME</p></div>
-    </router-link>
+    </router-link> -->
+    <div class="contact_btn_container">
+      <ContactButton buttonClass="hero_me_email" />
+    </div>
   </div>
 </template>
 <script>
+import ContactButton from "@/components/ContactButton.vue";
 export default {
   name: "Me",
+  components: { ContactButton },
   setup() {},
 };
 </script>
@@ -35,6 +40,11 @@ export default {
 
 a {
   text-decoration: none;
+}
+
+.contact_btn_container {
+  margin-bottom: 20px;
+  margin-top: 30px;
 }
 
 @media only screen and (max-width: 500px) {

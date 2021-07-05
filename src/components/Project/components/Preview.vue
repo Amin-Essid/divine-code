@@ -40,6 +40,7 @@ export default {
   .reversedPreview {
     width: 95%;
     margin-bottom: 20px;
+    border: none;
   }
 
   .previewImage {

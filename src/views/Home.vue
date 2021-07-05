@@ -19,6 +19,8 @@
     <InversedProject :project="projects[4]" />
     <!-- </div> -->
   </div>
+
+  <Footer />
 </template>
 
 <script>
@@ -26,10 +28,11 @@ import Hero from "@/components/Hero/Hero.vue";
 import Project from "@/components/Project/Project.vue";
 import InversedProject from "@/components/Project/InversedProject.vue";
 import projects from "@/data/data.js";
+import Footer from "@/components/Footer.vue";
 export default {
   name: "Home",
   props: [],
-  components: { Hero, Project, InversedProject },
+  components: { Hero, Project, InversedProject, Footer },
   setup() {
     return { projects };
   },
