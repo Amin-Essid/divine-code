@@ -1,6 +1,6 @@
 <template>
   <div class="hero_me">
-    <img class="hero_me_image" src="@/assets/me.png" />
+    <img class="hero_me_image" src="@/assets/me.jpg" />
     <!-- <router-link to="/contact">
       <div class="hero_me_email"><p>CONTACT ME</p></div>
     </router-link> -->
