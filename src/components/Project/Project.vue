@@ -4,20 +4,21 @@
     <Info :info="project.info" infoClass="info" />
   </div>
 
-  <div class="contact_btn_container">
+  <!-- <div class="contact_btn_container">
     <ContactButton class="hero_me_email " />
-  </div>
+  </div> -->
 </template>
 
 <script>
 import Preview from "@/components/Project/components/Preview.vue";
 import Info from "@/components/Project/components/Info.vue";
-import ContactButton from "@/components/ContactButton.vue";
+// import ContactButton from "@/components/ContactButton.vue";
 
 export default {
   name: "Project",
   props: ["project"],
-  components: { Preview, Info, ContactButton },
+  components: { Preview, Info },
+  // ContactButton
   setup() {},
 };
 </script>
