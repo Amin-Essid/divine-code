@@ -44,9 +44,9 @@ const projects = [
         "Vendly is an African platform that allows users to send secure packages (payments, degrees, gifts…) through social media. I worked on the backend for this startup and built most of the cloud functions. In addition, I built a part of the frontend.",
       stucks: [
         "next js",
-        "material ui",
+        "node js",
         "firebase",
-        "formik",
+        "cloud functions",
         "html",
         "css",
         "javascript",
