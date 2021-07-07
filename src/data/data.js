@@ -68,13 +68,13 @@ const projects = [
       discreption:
         "In my beloved country Tunisia, we still don’t have a good streaming platform for our local TV shows. Therefore, I took the responsibility to build one and solve this problem, and this project was the solution that I provided. Btounsi is a single web application that interacts with youtube API to get the necessary shows from each original owner's channel (to protect their copyrights). Any user can filter shows by channel, year, or type to find his best show.",
       stucks: [
-        "gatsby js",
-        "bootstrap",
-        "headless cms",
+        "react js",
+        "styled components",
         "formik",
         "html",
         "css",
         "javascript",
+        "youtube API",
       ],
     },
   },
