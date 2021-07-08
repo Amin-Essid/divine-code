@@ -1,6 +1,11 @@
 <template>
   <div :class="infoClass">
-    <h2>{{ info.name }}</h2>
+    <a class="project_info_a" v-if="info.url" :href="info.url" target="_blanc">
+      <h2>{{ info.name }}</h2>
+      <img src="@/assets/link.png" class="project_info_a_img" />
+    </a>
+
+    <h2 v-else>{{ info.name }}</h2>
     <p class="description">{{ info.discreption }}</p>
     <p>
       <span v-for="stuck in info.stucks" :key="stuck">
@@ -57,6 +62,21 @@ export default {
   margin: 5px 5px;
   padding: 3px;
   border-radius: 2px;
+}
+
+.project_info_a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.project_info_a_img {
+  width: 20px;
+  height: auto;
+  margin-left: 5px;
+}
+
+h2 {
+  display: inline-block;
 }
 
 p {

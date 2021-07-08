@@ -15,6 +15,7 @@ const projects = [
         "css",
         "javascript",
       ],
+      url: "https://wildcampers-sales-dev.web.app/",
     },
   },
   {
@@ -23,7 +24,7 @@ const projects = [
     info: {
       name: "SUGGESSTION-IMPROVEMENT",
       discreption:
-        "A big German company needed a website for their employees to give suggestions to improve the company workflow and culture. I built a platform for them that allows users to create an account, create a suggestion (and edit it or even delete it), add images to their posts to explain it more, and they can upvote the suggestions of other employees too.",
+        "A big German company needed a website for their employees to give suggestions to improve the company workflow and culture. I built a platform for them that allows users to create an account, create a suggestion (and edit it or even delete it), add images to their posts to explain it more, and they can upvote the suggestions of other employees too. (this url is for a preview that i deploy by myself, because i don't have the right to share the url of the real website)",
       stucks: [
         "next js",
         "material ui",
@@ -33,26 +34,10 @@ const projects = [
         "css",
         "javascript",
       ],
+      url: "https://suggestion-improvement.vercel.app/",
     },
   },
-  {
-    id: 3,
-    preview: ["vnone.png"],
-    info: {
-      name: "VENDLY",
-      discreption:
-        "Vendly is an African platform that allows users to send secure packages (payments, degrees, gifts…) through social media. I worked on the backend for this startup and built most of the cloud functions. In addition, I built a part of the frontend.",
-      stucks: [
-        "next js",
-        "node js",
-        "firebase",
-        "cloud functions",
-        "html",
-        "css",
-        "javascript",
-      ],
-    },
-  },
+
   {
     id: 4,
     preview: [
@@ -76,6 +61,7 @@ const projects = [
         "javascript",
         "youtube API",
       ],
+      url: "https://www.btounsi.com/",
     },
   },
   {
@@ -90,6 +76,25 @@ const projects = [
         "bootstrap",
         "headless cms",
         "formik",
+        "html",
+        "css",
+        "javascript",
+      ],
+      url: "https://www.ettissalet-othmani.com/",
+    },
+  },
+  {
+    id: 3,
+    preview: ["vnone.png"],
+    info: {
+      name: "VENDLY",
+      discreption:
+        "Vendly is an African platform that allows users to send secure packages (payments, degrees, gifts…) through social media. I worked on the backend for this startup and built most of the cloud functions. In addition, I built a part of the frontend.",
+      stucks: [
+        "next js",
+        "node js",
+        "firebase",
+        "cloud functions",
         "html",
         "css",
         "javascript",
