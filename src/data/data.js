@@ -61,7 +61,7 @@ const projects = [
         "javascript",
         "youtube API",
       ],
-      url: "https://www.btounsi.com/",
+      url: "https://btounsi.netlify.app/",
     },
   },
   {
